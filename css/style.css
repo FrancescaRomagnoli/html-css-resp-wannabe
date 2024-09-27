@@ -146,19 +146,27 @@ img {
     flex-wrap: wrap;
   }
 
-  .col {
-    width: 100%;
-  }
-
-  .steps .col {
-    width: 100%;
-  }
-
+  .lessons .col,
+  .steps .col,
   .why-us .col {
     width: 100%;
   }
 
-  .why-us .col-right {
-    width: 100%;
+  .why-us {
+    background-color: #222222;
+    padding: 3rem 0;
+    margin-bottom: 0;
+  }
+
+  .steps {
+    margin-bottom: 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
   }
 }
