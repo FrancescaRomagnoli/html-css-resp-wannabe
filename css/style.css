@@ -128,11 +128,14 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* TABLET */
 @media screen and (max-width: 768px) {
   body {
     background-color: #b8c1ec;
   }
 }
+
+/* MOBILE */
 
 @media screen and (max-width: 480px) {
   body {
