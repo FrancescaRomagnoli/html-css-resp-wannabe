@@ -130,15 +130,35 @@ img {
 
 /* TABLET */
 @media screen and (max-width: 768px) {
-  body {
-    background-color: #b8c1ec;
+  .container {
+    max-width: 768px;
   }
 }
 
 /* MOBILE */
 
 @media screen and (max-width: 480px) {
-  body {
-    background-color: lightgreen;
+  .container {
+    max-width: 480px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .steps .col {
+    width: 100%;
+  }
+
+  .why-us .col {
+    width: 100%;
+  }
+
+  .why-us .col-right {
+    width: 100%;
   }
 }
